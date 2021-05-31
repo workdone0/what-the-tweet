@@ -150,6 +150,8 @@ class Home extends React.Component {
                 type="primary"
                 style={{
                   borderRadius: "15px",
+                  width: "150px",
+                  height: "45px",
                 }}
                 disabled={
                   this.state.type.length > 0 && this.state.word.length > 0
