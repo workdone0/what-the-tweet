@@ -16,7 +16,7 @@ class GraphTwo extends React.Component {
     return (
       <Row style={{ marginTop: "20px", padding: "1%" }}>
         <Col span={24}>
-          <h1 style={{ fontWeight: "700" }}>Most Frequent Words</h1>
+          <h1 style={{ fontWeight: "700" }}>Most Used Words</h1>
         </Col>
         <Col xs={24} sm={24} md={24} lg={24} xl={24}>
           <div>
