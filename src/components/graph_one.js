@@ -55,7 +55,10 @@ class GraphOne extends React.Component {
       );
     };
     return (
-      <Row style={{ marginTop: "20px" }}>
+      <Row style={{ marginTop: "20px", padding: "1%" }}>
+        <Col span={24}>
+          <h1 style={{ fontWeight: "700" }}>Data Visualization</h1>
+        </Col>
         <Col xs={24} sm={24} md={12} lg={16} xl={16}>
           <div>
             <ResponsiveContainer width="100%" height={400}>

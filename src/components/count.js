@@ -6,7 +6,10 @@ import { Row, Col } from "antd";
 class Count extends React.Component {
   render() {
     return (
-      <Row style={{ marginTop: "2%", minHeight: "20vh" }}>
+      <Row style={{ marginTop: "2%", minHeight: "20vh", padding: "1%" }}>
+        <Col span={24}>
+          <h1 style={{ fontWeight: "700" }}>Dashboard</h1>
+        </Col>
         <Col xs={24} sm={24} md={12} lg={6} xl={6} style={{ padding: "1%" }}>
           <div
             style={{

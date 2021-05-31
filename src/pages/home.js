@@ -2,6 +2,11 @@ import React from "react";
 import { Row, Col, Input, Select, Button, notification } from "antd";
 import { PieChartOutlined } from "@ant-design/icons";
 import { Redirect } from "react-router-dom";
+import {
+  GithubOutlined,
+  TwitterOutlined,
+  LinkedinOutlined,
+} from "@ant-design/icons";
 
 import Face from "../assets/images/face.png";
 
@@ -133,7 +138,6 @@ class Home extends React.Component {
               <Select
                 placeholder="Options"
                 size="large"
-                style={{ width: "30%" }}
                 onChange={(event) => this.setState({ type: event })}
               >
                 <Option value="user">Username</Option>
@@ -157,6 +161,55 @@ class Home extends React.Component {
               >
                 Analyse
               </Button>
+            </div>
+            <div
+              style={{
+                position: "absolute",
+                bottom: 0,
+                textAlign: "center",
+                display: "flex",
+                padding: "2% 0",
+                alignItems: "center",
+              }}
+            >
+              <a
+                href="https://github.com/workdone0"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <GithubOutlined
+                  style={{ marginRight: "10px", fontSize: "30px" }}
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/shubham-kumar-0199/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <LinkedinOutlined
+                  style={{ marginRight: "10px", fontSize: "30px" }}
+                />
+              </a>
+              <a
+                href="https://twitter.com/workdone0"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <TwitterOutlined
+                  style={{ marginRight: "10px", fontSize: "30px" }}
+                />
+              </a>
+
+              <p
+                style={{
+                  margin: 0,
+                  marginLeft: "20px",
+                  fontWeight: "900",
+                  fontSize: "20px",
+                }}
+              >
+                Built in React and Python
+              </p>
             </div>
           </div>
         </Col>
